@@ -66,6 +66,6 @@ Level Six indentation will have twelve spaces before the asterisk and text. Used
 
 To run this program, run the script ParseBase.py using a Python interpreter. This was written using Python 3.12.
 
-Running the program will return a folder with the parsed JSON file of all your content, a list of characters, a list of locations, and a list of songs. The program WILL crash if it can't find what is needed.
+Running the program will return a folder called "Output" with the parsed JSON file of all your content, a list of characters, a list of locations, and a list of songs. The program WILL crash if it can't find what is needed.
 
 Have fun!
