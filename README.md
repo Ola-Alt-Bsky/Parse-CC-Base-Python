@@ -64,6 +64,8 @@ Level Five indentation will have nine spaces before the astrisk and text. Used f
 
 Level Six indentation will have twelve spaces before the astrisk and text. Used for specifying songs for specific scenes.
 
+To run this program, run the script ParseBase.py using a Python interpreter. This was written using Python 3.12.
+
 Running the program will return a folder with the parsed JSON file of all your content, a list of characters, a list of locations, and a list of songs. The program WILL crash if it can't find what is needed.
 
 Have fun!
