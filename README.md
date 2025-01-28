@@ -46,23 +46,23 @@ Level One indentation will have nothing but the text starting immediately. Used 
 
 # Level Two
 
-Level Two indentation will have an astrisk before the text starting. Used for naming episodes.
+Level Two indentation will have an asterisk before the text starting. Used for naming episodes.
 
 # Level Three
 
-Level Three indentation will have three spaces before the astrisk and text. Used for marking characters, locations, start dates, timelines, and songs.
+Level Three indentation will have three spaces before the asterisk and text. Used for marking characters, locations, start dates, timelines, and songs.
 
 # Level Four
 
-Level Four indentation will have six spaces before the astrisk and text. Used for listing the cotent of the level three stuff and categorizing songs.
+Level Four indentation will have six spaces before the asterisk and text. Used for listing the content of the level three stuff and categorizing songs.
 
 # Level Five
 
-Level Five indentation will have nine spaces before the astrisk and text. Used for specifying scenes where specific songs are used.
+Level Five indentation will have nine spaces before the asterisk and text. Used for specifying scenes where specific songs are used.
 
 # Level Six
 
-Level Six indentation will have twelve spaces before the astrisk and text. Used for specifying songs for specific scenes.
+Level Six indentation will have twelve spaces before the asterisk and text. Used for specifying songs for specific scenes.
 
 To run this program, run the script ParseBase.py using a Python interpreter. This was written using Python 3.12.
 
