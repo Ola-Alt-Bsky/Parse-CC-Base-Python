@@ -63,7 +63,10 @@ def parse_to_json(lines):
 
 
 # Read input from a .txt file
-file_path = "Casual Roleplay Base.txt"  # Replace with your file path
+print("Welcome! You will need to enter in the location of your file.")
+file_path = input("Enter in the ABSOLUTE file path of the base txt file: ")
+file_path = file_path.strip('"')
+
 with open(file_path, "r", encoding="utf-8-sig") as file:
     file_lines = file.readlines()
 
@@ -86,7 +89,7 @@ locations = list(set(locations))
 songs = list(set(songs))
 
 # Save the parsed JSON information to a folder
-output_dir = "Output"
+output_dir = path.join(path.abspath(path.dirname(file_path)), "Output")
 output_name = "Casual_Roleplay"
 output_path = path.join(output_dir, output_name)
 
